@@ -76,7 +76,7 @@ main {
   grid-template-rows: auto 1fr;
 }
 
-#for_mi h2, #skills-tec h2, footer h2, #education h2, #experiencia h2, #expectativas h2{
+#for_mi h2, #skills-tec h2, footer h2, #education h2 {
   font-size: 35px;
   grid-column: 1/3;
   text-align: center;
@@ -223,52 +223,6 @@ main {
   font-size: 20px;
 }
 
-#expectativas .container-expect {
-    padding-top: 20px;
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  
-  #expectativas .container-expect .expect {
-    display: grid;
-    grid-gap: 10px;
-    border: 4px solid #af0d7d50;
-    padding: 20px 0;
-    margin: 10px 0 0;
-  }
-  
-  #expectativas .container-expect .expect p {
-    background: #af0d7d11;
-    padding: 10px;
-    color: #212529;
-    font-size: 20px;
-  }
-
-  #experiencia .container-experiencia {
-    padding-top: 20px;
-    width: 90%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  
-  #experiencia .container-experiencia .exp-lab {
-    display: grid;
-    grid-gap: 10px;
-    border: 4px solid #af0d7d50;
-    padding: 20px 0;
-    margin: 10px 0 0;
-  }
-  
-  #experiencia .container-experiencia .exp-lab p {
-    background: #af0d7d11;
-    padding: 10px;
-    color: #212529;
-    font-size: 20px;
-  }
-  
 @media screen and (max-width: 1200px) {
   #for_mi .container {
     grid-template-columns: 1fr;
